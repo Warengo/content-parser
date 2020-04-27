@@ -1,0 +1,14 @@
+{
+	"name": "warengo/content-parser",
+	"description": "Content parser for status, stories, etc.",
+	"require": {
+		"php": ">= 7.3",
+		"joypixels/emoji-toolkit": "^5.0.5",
+		"paquettg/php-html-parser": "^2.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Warengo\\ContentParser\\": "src/"
+		}
+	}
+}
